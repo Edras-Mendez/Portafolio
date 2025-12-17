@@ -1,4 +1,3 @@
-import react from "react";
 import "./css/querys.css";
 
 export default function CardSkill({img, text,title}){

@@ -1,6 +1,4 @@
 import React from "react";
-import Modal from "./modalProject.jsx";
-import ImgContact from "./imgs/contact.svg";
 
 export default function Contact({id, img}){
   return(
