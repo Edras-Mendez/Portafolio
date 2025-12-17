@@ -1,0 +1,32 @@
+.aboutBox {
+  max-width: 900px;
+  border-radius: 12px;
+}
+
+/* Layout normal */
+.containerAbout {
+  gap: 20px;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 950px) {
+  .aboutBox {
+    width: 100%;
+    padding: 1.2rem;
+  }
+
+  .containerAbout {
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/*@media (max-width: 620px){*/
+  /*.cardContainer{*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+  /*}*/
+/*}*/
+
